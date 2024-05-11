@@ -1,0 +1,23 @@
+.item{
+    background-color: #ffffffc4;
+    display:inline-table;
+    margin-top: 20px;
+
+    padding-right: 4px;
+    padding-left: 15.6px;
+    height: 7vh;
+
+}
+.item .p1 h4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.item img{    
+    height: 200px;
+    padding: 50px;
+    cursor: pointer;
+    
+}
