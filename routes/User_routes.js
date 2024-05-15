@@ -101,10 +101,10 @@ router.route("/userUpdate/:id").put(async(req,res)=>{
 
 
 
-router.route("/fdelete/:id").delete(async(req,res)=>{
+router.route("/userDelete/:id").delete(async(req,res)=>{
     const assignID = req.params.id;
 
-    var filter = {vehicleOrStorageNumber:assignID}
+    var filter = {firstName:assignID}
     
     await Assign.findOneAndDelete(filter).then(()=>{
         res.json("Deleted Assigned Data Successfully")

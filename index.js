@@ -22,6 +22,9 @@ mongoose.connect("mongodb+srv://vdr:vdr123@vdroom.n2pzweq.mongodb.net/crudreview
 const userRouter = require('./routes/User_routes');
 app.use("/user",userRouter);
 
+//const ratingRouter = require('./routes/Rating_routes');
+//app.use("/rating",ratingRouter);
+
 
 
 
